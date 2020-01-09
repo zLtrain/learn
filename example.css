@@ -14,7 +14,7 @@ header {
   font-family: 'Gill Sans';
   font-size: 200%;
   text-align: center;
-  background-image: url('./bridge.jpg');
+  background-image: url("Gundamwing.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -29,39 +29,9 @@ main {
   color: #2d2f77;
   padding: 10px;
   text-align: center;
+  height: 1500px;
 }
 
-nav {
-  grid-area: nav;
-  background-color: #2d2f77;
-  color: white;
-  padding: 10px;
-  text-decoration: none;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: white;
-}
-
-nav ul li {
-  padding: 10px;
-}
-
-footer {
-  color: #2d2f77;
-  text-align: center;
-}
-
-img {
-  width: 25%;
-}
 
 .container {
   display: grid;

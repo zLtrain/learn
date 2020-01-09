@@ -1,1 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+  }
 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+      display: inline;
+  }
+  li:hover {
+    color: crimson;
+  }
+  header {
+    grid-area: header;
+    color: white;
+    padding: 10px;
+    font-family: 'Gill Sans';
+    font-size: 200%;
+    text-align: center;
+    background-image: url("Gundamwing.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  main {
+    grid-area: main;
+    color: #2d2f77;
+    padding: 10px;
+    text-align: center;
+    height: 1500px;
+    font-size: 20pt;
+  }
+  
+  
